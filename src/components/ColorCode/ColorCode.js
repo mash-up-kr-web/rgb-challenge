@@ -3,7 +3,7 @@ import styles from './ColorCode.module.css'
 
 const ColorCode = ({ answer }) => (
   <p className={styles.answer}>
-    {answer}
+    {answer.color}
   </p>
 )
 
