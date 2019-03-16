@@ -16,7 +16,7 @@
 .answer.selected {
   position: relative;
   z-index: 10;
-  transform: scale(40);
+  transform: scale(60);
 }
 
 .button {
