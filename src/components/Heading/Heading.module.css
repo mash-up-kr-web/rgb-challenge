@@ -9,7 +9,7 @@
   line-height: 1.1;
 }
 
-.title em {
-  font-size: 52px;
+.emphasize {
+  font-size: 3.25rem;
   font-weight: 400;
 }
