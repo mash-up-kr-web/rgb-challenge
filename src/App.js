@@ -1,10 +1,13 @@
 import React, { Component } from 'react'
-import { Heading } from './components'
+import { Game, Heading } from './components'
+import styles from './App.module.css'
+
 class App extends Component {
   render() {
     return (
-      <div>
+      <div className={styles.wrapper}>
         <Heading />
+        <Game />
       </div>
     )
   }
