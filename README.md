@@ -1,5 +1,15 @@
 # RGB Challenge
 
+## 소개
+
+화면에 표시된 RGB 코드가 나타내는 색을 추측하는 게임
+
+![RGB Challenge 1](assets/rgb-challenge-1.png)
+
+![RGB Challenge 2](assets/rgb-challenge-2.png)
+
+![RGB Challenge 3](assets/rgb-challenge-3.png)
+
 ## 실습을 진행하는 동안 다루게 될 개념
 
 - props: 컴포넌트 간에 데이터 주고 받기
