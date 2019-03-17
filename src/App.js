@@ -20,7 +20,7 @@ class App extends Component {
     const { name } = event.target
 
     if (Number(name) === correctAnswerIndex) {
-      this.setState((state) => ({
+      this.setState(state => ({
         score: state.score + 1,
         selectedIndex: Number(name),
       }))
