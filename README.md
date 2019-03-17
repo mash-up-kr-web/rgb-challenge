@@ -15,4 +15,3 @@
 - `Array.prototype.map`을 활용한 배열 데이터 렌더링
 - state 끌어올리기
 - 컴포넌트
-
