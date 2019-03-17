@@ -22,7 +22,7 @@ class App extends Component {
     if (Number(name) === correctAnswerIndex) {
       this.setState((state) => ({
         score: state.score + 1,
-        selectedIndex: Number(name)
+        selectedIndex: Number(name),
       }))
     } else {
       this.setState({ selectedIndex: Number(name) })
