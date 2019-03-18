@@ -1,0 +1,30 @@
+.answers {
+  display: flex;
+  justify-content: center;
+}
+
+.answer {
+  overflow: hidden;
+  margin: 0 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  transition: all 0.5s;
+}
+
+.answer.selected {
+  position: relative;
+  z-index: 10;
+  transform: scale(60);
+}
+
+.button {
+  width: 100%;
+  height: 100%;
+  outline: none;
+  cursor: pointer;
+}
+
+.button.selected {
+  display: none;
+}
