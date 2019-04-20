@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Dialog, Game, Heading } from './components'
-import { createRGBCode, getIntLessThan } from './utils'
+import { createRGBCode, sampleIntLessThan } from './utils'
 import styles from './App.module.css'
 
 class App extends Component {
@@ -10,7 +10,7 @@ class App extends Component {
       { key: 1, color: createRGBCode() },
       { key: 2, color: createRGBCode() },
     ],
-    correctAnswerIndex: getIntLessThan(3),
+    correctAnswerIndex: sampleIntLessThan(3),
     score: 0,
     selectedIndex: null,
   }
@@ -35,7 +35,7 @@ class App extends Component {
       { key: 1, color: createRGBCode() },
       { key: 2, color: createRGBCode() },
     ],
-    correctAnswerIndex: getIntLessThan(3),
+    correctAnswerIndex: sampleIntLessThan(3),
     selectedIndex: null,
   }))
 
@@ -45,7 +45,7 @@ class App extends Component {
       { key: 1, color: createRGBCode() },
       { key: 2, color: createRGBCode() },
     ],
-    correctAnswerIndex: getIntLessThan(3),
+    correctAnswerIndex: sampleIntLessThan(3),
     score: 0,
     selectedIndex: null,
   })
